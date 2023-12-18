@@ -13,7 +13,7 @@ export const MainPage = () => {
                         <ToDo />
                     </div>
                     <div className="w-1/2 bg-ring h-full flex flex-col px-20 pt-20 gap-5 items-center">
-                        <p className="text-8xl font-bold">Pomodoro</p>
+                        <p className="text-8xl font-bold text-white">Pomodoro</p>
                     </div>
                 </div>
                 <Footer />
