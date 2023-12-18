@@ -20,16 +20,9 @@ export const ContextMenuCreator = ({trigger} : Trigger) => {
                 <span>{trigger}</span>
             </ContextMenuTrigger>
             <ContextMenuContent className="w-64">
-                <ContextMenuItem inset>Delete task
-                    <ContextMenuShortcut>Ctrl+Shift+D</ContextMenuShortcut>
-                </ContextMenuItem>
-                <ContextMenuSeparator />
-                <ContextMenuCheckboxItem>Assign priority badge
-                    <ContextMenuShortcut>Ctrl+Shift+B</ContextMenuShortcut>
-                </ContextMenuCheckboxItem>
-                <ContextMenuItem inset>Edit task
-                    <ContextMenuShortcut>Ctrl+Shift+E</ContextMenuShortcut>
-                </ContextMenuItem>
+                <ContextMenuItem inset>Delete task</ContextMenuItem>
+                <ContextMenuCheckboxItem>Assign priority badge</ContextMenuCheckboxItem>
+                <ContextMenuItem inset>Edit task</ContextMenuItem>
             </ContextMenuContent>
         </ContextMenu>
     )
