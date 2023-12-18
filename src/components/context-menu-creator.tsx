@@ -4,8 +4,6 @@ import {
     ContextMenuCheckboxItem,
     ContextMenuContent,
     ContextMenuItem,
-    ContextMenuSeparator,
-    ContextMenuShortcut,
     ContextMenuTrigger,
 } from "@/components/ui/context-menu";
 
