@@ -5,7 +5,7 @@ export const Footer = () => {
         <div className="h-14 w-full py-2 px-3">
             <p className="text-lg font-semibold text-foreground bg-background text-center flex justify-center items-center gap-1">
                 Made with <Heart className="text-ring" /> by 
-                <a className="underline text-ring" href="">Shambhavi</a>
+                <a className="underline text-ring" href="https://www.linkedin.com/in/shambhavi-singh-">Shambhavi</a>
             </p>
         </div>
     )
