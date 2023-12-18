@@ -27,6 +27,9 @@ export const ContextMenuCreator = ({trigger} : Trigger) => {
                 <ContextMenuCheckboxItem>Assign priority badge
                     <ContextMenuShortcut>Ctrl+Shift+B</ContextMenuShortcut>
                 </ContextMenuCheckboxItem>
+                <ContextMenuItem inset>Edit task
+                    <ContextMenuShortcut>Ctrl+Shift+E</ContextMenuShortcut>
+                </ContextMenuItem>
             </ContextMenuContent>
         </ContextMenu>
     )
