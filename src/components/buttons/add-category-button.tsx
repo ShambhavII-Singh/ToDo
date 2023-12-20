@@ -4,13 +4,12 @@ import {
     Dialog,
     DialogContent,
     DialogDescription,
-    DialogFooter,
     DialogHeader,
     DialogTitle,
     DialogTrigger,
 } from "@/components/ui/dialog";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+
+import { AddCategoryForm } from "../forms/add-category-form";
 
 export const AddCategoryButton = () => {
     return (
@@ -26,31 +25,9 @@ export const AddCategoryButton = () => {
                         {`Create a new task Category. Click save when you're done.`}
                     </DialogDescription>
                 </DialogHeader>
-                <div className="grid gap-4 py-4">
-                    <div className="grid grid-cols-4 items-center gap-4">
-                        <Label htmlFor="name" className="text-right">
-                        Name
-                        </Label>
-                        <Input
-                        id="name"
-                        defaultValue=""
-                        className="col-span-3"
-                        />
-                    </div>
-                    <div className="grid grid-cols-4 items-center gap-4">
-                        <Label htmlFor="description" className="text-right">
-                        Description
-                        </Label>
-                        <Input
-                        id="username"
-                        defaultValue=""
-                        className="col-span-3"
-                        />
-                    </div>
+                <div className="grid gap-4 pb-4">
+                    <AddCategoryForm />
                 </div>
-                <DialogFooter>
-                    <Button type="submit">Save</Button>
-                </DialogFooter>
             </DialogContent>
         </Dialog>
     )
