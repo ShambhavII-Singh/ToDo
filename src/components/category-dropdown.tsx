@@ -27,7 +27,7 @@ export const CategoryDropdown = ({ categories }: CategoryDropdown) => {
                 {categories.map((category) => {
                     if (category.key !== current) {
                         return (
-                            <DropdownMenuItem onClick={() => {setCurrent(category.key)}}>
+                            <DropdownMenuItem className="w-full justify-center" onClick={() => {setCurrent(category.key)}}>
                                 <span>{category.name}</span>
                             </DropdownMenuItem>
                         );
