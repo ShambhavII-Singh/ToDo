@@ -19,7 +19,7 @@ export const Header = () => {
                 </div>
             </div>
             <div className="flex justify-end gap-2">
-                <TooltipCreator trigger={<RepositoryLinkButton />} description="Github Link" />
+                <TooltipCreator trigger={<RepositoryLinkButton />} description="Check out the GitHub repo!" />
                 <TooltipCreator trigger={<LightModeDarkModeToggle />} description="Change Mode" />
             </div>
         </div>
